@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+.fa-pencil-square-o{
+    background-color: blue;
+    color: white;
+}
+.fa-trash-o{
+    background-color: red;
+    color: white;
+}
+.container-fluid{
+    height: 100%!important;
+}
+.navbar{
+    background-color: transparent;
+    
+}
+.navbar-brand{
+    color:yellow!important;
+    font-size: 40px;
+    width: 50%;
+    font-family: cursive;
+}
+
+.logoimage{
+    width: 10%;
+    margin-left: 4%;
+}
+.navbar-collapse{
+    font-size: 21px;
+}
+.nav-link{
+    padding-right: 13px;
+}
+
+@media (max-width: 584px) {
+    .navbar-brand{
+        font-size: 30px;
+    }
+    
+}
+@media (max-width: 386px) {
+    .navbar-brand{
+        font-size: 19px;
+    }
+    
+}
+@media (max-width: 276px) {
+    .navbar-brand{
+        font-size: 13px;
+    }
+    
+}

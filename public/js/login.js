@@ -1,0 +1,19 @@
+$(document).ready(function(){
+    
+    $('.custom-open').click(function(){
+        $('.custom-show').show();
+    });
+    $('.custom-hide').click(function(){
+        $('.custom-show').hide();
+    });
+    $('.btnsidebarr').click(function(){
+        $('.sidebarshow').show();
+        $('.btnsidebarl').show();
+        $('.btnsidebarr').hide();
+    });
+    $('.btnsidebarl').click(function(){
+        $('.sidebarshow').hide();
+        $('.btnsidebarl').hide();
+        $('.btnsidebarr').show();
+    });
+});

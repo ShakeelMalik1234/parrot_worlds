@@ -1,0 +1,293 @@
+.navbar{
+    background-color: transparent;
+    
+}
+.navbar-brand{
+    color:yellow!important;
+    font-size: 40px;
+    width: 50%;
+    font-family: cursive;
+}
+
+
+.bgcontainer{
+    background-position: 184px -10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-color: #050505;
+}
+.logoimage{
+    width: 10%;
+    margin-left: 4%;
+}
+.navbar-collapse{
+    font-size: 21px;
+}
+.nav-link{
+    padding-right: 13px;
+}
+
+@media (max-width: 584px) {
+    .navbar-brand{
+        font-size: 30px;
+    }
+    .textfont h1{
+        font-size: 42px!important;
+    }
+    .textfont h2{
+        font-size: 30px!important;
+    }
+    .logoimage{
+        width: 22%;
+        margin-left: 0%;
+    }
+}
+@media (max-width: 386px) {
+    .navbar-brand{
+        font-size: 19px;
+    }
+    .textfont h1{
+        font-size: 35px!important;
+    }
+    .textfont h2{
+        font-size: 25px!important;
+    }
+    .logoimage{
+        width: 35%;
+        margin-left: 0%;
+    }
+}
+@media (max-width: 276px) {
+    .navbar-brand{
+        font-size: 13px;
+    }
+    .textfont h1{
+        font-size: 22px!important;
+    }
+    .textfont h2{
+        font-size: 21px!important;
+    }
+    .logoimage{
+        width: 22%;
+        margin-left: 0%;
+    }
+}
+
+
+
+.textfont h1{
+    color: yellow;
+    font-size: 60px;
+    font-family: cursive;
+}
+.textfont h2{
+    color: white;
+    font-size: 35px;
+    font-family: cursive;
+}
+.textfont h3{
+    color: yellow;
+    font-family: cursive;
+    margin-top: 48px;
+}
+.textfont p{
+    color: white;
+    font-family: cursive;
+    text-align: justify;
+}
+.btnlearn{
+    border-radius: 26px;
+}
+
+.loginlogo{
+    width: 25%;
+    height: 100%;
+    border-radius: 50%;
+}
+.loginbgcolor{
+    background-color: #ffe60021;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+label{
+    color: white;
+}
+.formlogin{
+    border-radius: 25px;
+}
+
+hr{
+    color: black;
+}
+.loginform a{
+    color: white;
+}
+.loginform a:hover{
+    color: yellow;
+}
+
+.createform{
+    background-color: #ffe60021;
+    margin-bottom: 5px!important;
+}
+
+.createform h1{
+    color: yellow;
+    font-family: cursive;
+    text-align: center;
+    
+}
+@media (max-width: 576px){
+    .logincol{
+        justify-content: center;
+    }
+}
+.createform label{
+    font-size: 80%;
+}
+.genderform label{
+    color: black!important;
+}
+.genderform{
+    border-radius: 35px;
+    width: 31%;
+    font-size: 100%;
+    display: inline-block;
+    
+}
+@media(max-width:338px){
+    .genderform{
+        width: 100%;
+        margin-bottom: 3%;
+        margin-left: 2%;
+    }
+}
+@media(max-width:446px){
+    .genderform{
+        margin-bottom: 3%;
+        margin-left: 2%;
+    }
+}
+.loginpage{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.loginpage p:hover{
+    color: yellow;
+    
+}
+.select-border{
+    border-radius: 35px;
+}
+.custom-show{
+    display: none;
+}
+.errors{
+    font-size: 80%;
+}
+.bgdash{
+    background-color: black;
+}
+::-webkit-scrollbar-button{
+    display: none;
+}
+.cntcticon p{
+    margin-bottom: 0px;
+    margin-left: 7px;
+}
+
+
+/* left side bar.... */
+.sidebar {
+  margin: 29px 0 0 0;
+  padding: 0;
+  width: 80px;
+  background-color: #000;
+  position: fixed;
+  height: 370px;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: #ffca2c;
+  padding: 16px;
+  text-decoration: none;
+}
+.sidebar a:hover {
+    background-color: #ffca2c;
+    color: black;
+  }
+
+.btnsidebarl{
+    background-color:  #ffca2c;
+    color: #000;
+    border-radius: 30px;
+    position: fixed;
+    margin-left: 72px;
+    margin-top: -34px;
+    padding: 0px 12px 1px 11px!important;
+    display: none;
+}
+.btnsidebarr{
+    background-color:  #ffca2c;
+    color: #000;
+    border-radius: 30px;
+    position: fixed;
+    left: -13px;
+    margin-top: -34px;
+    padding: 1px 12px 3px 14px!important;
+}
+.sidebarshow{
+    display: none;
+    margin-left: -23px;
+}
+
+
+/* right side bar */
+
+.sideright {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color:#000;
+    position: inherit;
+    float: right;
+    height: 100%;
+    overflow: auto;
+  }   
+
+  @media(max-width: 768px) {
+    .sideright {
+      display: none;
+    }
+  }
+.cardimage{
+    height: 115px;
+}
+.cardheight{
+    height: 190px;
+}
+.details{
+    display: none;
+}
+.btn-danger{
+    background-color: #dc3545!important;
+}
+
+@media(max-width: 1100px){
+    .navbar-nav li a{
+        font-size: 17px!important;
+    }
+    .btnlogin strong{
+        font-size: 15px;
+    }
+}
+@media(max-width: 1100px){
+    .btnlogin strong{
+        font-size: 13px;
+    }
+}
+
